@@ -1,0 +1,55 @@
+body{
+    margin: 0 auto;
+    background: url("2_new.jpg");
+    background-size: cover;
+}
+#type{
+    position: absolute;
+    left: 380px;
+    bottom:200px;
+}
+
+#Details{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    position: relative;
+    /*background-image: linear-gradient(to right,#0056d6,#0091e3,#00bac8,#9dd9be,#f1f6e5);*/
+    background-image: linear-gradient(to bottom,black,grey);
+    max-width: 260px;
+    max-height: 500px;
+    border-radius: 10px;
+    margin:200px auto 100px;
+    padding:10px 25px 30px;
+    text-align:center;
+    bottom:100px;
+    
+}
+
+button{
+    position:absolute;
+    border-radius: 10px;
+    background-color:rgb(7, 176, 206);
+    left:200px;
+    bottom:-50px;
+    width:25%;
+    height:200%;
+    color:white
+}
+label{
+    color:white
+}
+
+
+
+#Details input{
+    
+    width:100%;     /*for adjusting length of buttons*/
+    margin: 0 0 5px;   /*for creating space between buttons*/
+    padding:5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background:cornsilk;
+    color:black;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+}
+

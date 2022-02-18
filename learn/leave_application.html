@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application</title>
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous">
+    </script>
+   <script
+   src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+   crossorigin="anonymous"></script>
+   <link href=https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css rel="stylesheet"> 
+   <link rel="stylesheet" href="leave_application.css">
+</head>
+<body>
+    <script>
+        $(document).ready(function()
+        {
+            $("#FromDate").datepicker();
+            $("#ToDate").datepicker();
+        });
+
+        $(document).ready(function()
+        {
+            $("#apply_now").click(function(){
+                alert("Leave has been applied successfully");
+            });
+        });
+    </script>
+    <div id="Details">
+        <label>Employee ID</label>
+        <input type="text" readonly>
+
+        <label>Name</label>
+        <input type="text" readonly>
+
+        <label>Mobile Number</label>
+        <input type="text" readonly>
+
+        <label>From Date</label>
+        <input type="text" id="FromDate">
+
+        <label>To Date</label>
+        <input type="text" id="ToDate">
+    </div>
+
+    <div id="type">
+        <label>Planned Leave</label>
+        <input type="radio" name="leave" value="choice-1">
+
+        <label>UnPlanned Leave</label>
+        <input type="radio" name="leave" value="choice-2">
+        
+        <label>Sick Leave</label>
+        <input type="radio" name="leave" value="choice-3">
+        
+        <label>Maternity Leave</label>
+        <input type="radio" name="leave" value="choice-4">
+
+        <button id="apply_now">APPLY</button>
+
+    </div>
+
+        
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    margin: 0 auto;
+    background: url("2_new.jpg");
+    background-size: cover;
+}
+
+table{
+    margin:0px auto;
+    position:absolute;
+    top:200px;
+    left:-250px;
+    max-width: 50%;
+}

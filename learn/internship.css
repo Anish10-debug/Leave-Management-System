@@ -1,0 +1,76 @@
+body{
+    margin: 0 auto;
+    background: url("2_new.jpg");
+    background-size: cover;
+}
+
+
+
+#justin{
+    text-align: center;
+    position:relative;
+    left:-1px;
+    top:10px;
+    font-size: 50px;  
+    font-weight: bold;  
+    color:white;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    animation-name: animeA;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animeA{
+    0% {color:white}
+    25% {color:turquoise}
+    50% {color:greenyellow}
+    75% {color:red}
+  
+}
+
+
+#form1{
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    position: relative;
+    bottom:100px;
+    /*background-image: linear-gradient(to right,#0056d6,#0091e3,#00bac8,#9dd9be,#f1f6e5);*/
+    background-image: linear-gradient(to bottom,black,grey);
+    max-width: 260px;
+    border-radius: 15px;
+    margin:200px auto 100px;
+    padding:10px 45px 30px;
+    text-align:center;
+    
+}
+
+
+#login{
+    font-size: x-large;
+    font-family:monospace;
+    color: white;
+}
+
+
+
+#form1 input{
+    border-radius: 10px;
+    background-color:cornsilk;
+    width:100%;     /*for adjusting length of username and password*/
+    margin: 0 0 15px;   /*for creating space between username and password*/
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#form1 button{
+    border-radius: 10px;
+    background:rgb(7, 176, 206);
+    padding: 10px;
+    width:50%;
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    cursor:pointer;
+}
+#form1 button:hover{
+    background:grey;
+}
